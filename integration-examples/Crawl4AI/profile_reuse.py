@@ -1,6 +1,6 @@
 import asyncio
 from urllib.parse import urlencode
-from Crawl4AI import CrawlerRunConfig, BrowserConfig, AsyncWebCrawler
+from crawl4ai import CrawlerRunConfig, BrowserConfig, AsyncWebCrawler
 
 async def main():
     scrapeless_params = {
